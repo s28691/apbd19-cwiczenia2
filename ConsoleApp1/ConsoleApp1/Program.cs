@@ -13,3 +13,7 @@ static double GetAverage(int[] tablica)
  }
  return (double) suma / tablica.Length;
 }
+
+int[] tablica = {1, 2, 3, 4, 5};
+var average = GetAverage(tablica);
+Console.WriteLine(average);
