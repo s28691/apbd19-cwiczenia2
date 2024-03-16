@@ -30,3 +30,5 @@ static int GetMax(int[] tablica)
  }
  return max;
 }
+var najwieksza = GetMax(tablica);
+Console.WriteLine(najwieksza);
