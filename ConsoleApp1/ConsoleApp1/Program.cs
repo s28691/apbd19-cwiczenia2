@@ -7,9 +7,9 @@ Console.WriteLine("Modyfikacja 2");
 static double GetAverage(int[] tablica)
 {
  int suma = 0;
- foreach (var number in tablica)
+ foreach (var number987 in tablica)
  {
-  suma += number;
+  suma += number987;
  }
  return (double) suma / tablica.Length;
 }
