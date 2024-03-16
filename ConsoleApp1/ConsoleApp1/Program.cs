@@ -17,3 +17,16 @@ static double GetAverage(int[] tablica)
 int[] tablica = {1, 2, 3, 4, 5};
 var average = GetAverage(tablica);
 Console.WriteLine(average);
+
+static int GetMax(int[] tablica)
+{
+ int max = 0;
+ for (int a = 0; a < tablica.Length; a++)
+ {
+  if (tablica[a] > max)
+  {
+   max = tablica[a];
+  }
+ }
+ return max;
+}
